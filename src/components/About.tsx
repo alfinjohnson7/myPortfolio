@@ -68,9 +68,9 @@ export function About() {
             </div>
 
             <div className="space-y-6">
-              {/* Image reveal with scanline tech effect on hover */}
+              {/* Image reveal with scanline tech effect on hover — hidden on mobile */}
               <motion.div
-                className="group relative overflow-hidden border border-zinc-800"
+                className="group relative overflow-hidden border border-zinc-800 hidden md:block"
                 initial={{ opacity: 0, clipPath: "inset(0 100% 0 0)" }}
                 whileInView={{ opacity: 1, clipPath: "inset(0 0% 0 0)" }}
                 viewport={{ once: true, amount: 0.4 }}
