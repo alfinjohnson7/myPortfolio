@@ -51,7 +51,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="text-white text-sm" style={{ fontWeight: 500 }}>LinkedIn</p>
-                    <p className="text-gray-600 text-xs">linkedin.com/in/alfin-johnson</p>
+                    <p className="text-gray-600 text-xs">www.linkedin.com/in/alfinjohnsonn333j</p>
                   </div>
                 </a>
 
